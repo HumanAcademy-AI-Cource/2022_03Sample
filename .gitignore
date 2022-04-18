@@ -1,0 +1,4 @@
+*.pyc
+__pycache__
+scripts/speech.wav
+scripts/images/camera.jpg
