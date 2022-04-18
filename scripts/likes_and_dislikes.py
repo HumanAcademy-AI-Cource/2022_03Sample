@@ -58,10 +58,10 @@ class BananaAndNasu():
         detect_flag = False
         for d in result_data:
             if d == "ナス":
-                speech.speech_message("ナスきらい！！！")
+                speech.speech_message("ナスきらい!!!")
                 detect_flag = True
             if d == "バナナ":
-                speech.speech_message("ばなな大好き！！！")
+                speech.speech_message("ばなな大好き!!!")
                 detect_flag = True
         if not detect_flag:
             rospy.loginfo("バナナとナスが見つかりませんでした。")
